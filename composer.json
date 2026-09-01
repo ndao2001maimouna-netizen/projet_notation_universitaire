@@ -1,0 +1,15 @@
+{
+    "name": "maimouna-ndao/projet_notation_universitaire",
+    "autoload": {
+        "psr-4": {
+            "MaimounaNdao\\ProjetNotationUniversitaire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "maimouna",
+            "email": "ndao2001maimouma@gmail.com"
+        }
+    ],
+    "require": {}
+}
