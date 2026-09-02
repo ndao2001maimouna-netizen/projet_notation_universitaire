@@ -2,7 +2,14 @@
     "name": "maimouna-ndao/projet_notation_universitaire",
     "autoload": {
         "psr-4": {
-            "MaimounaNdao\\ProjetNotationUniversitaire\\": "src/"
+           "App\\": "src/",
+            "App\\Controller\\": "src/Controller/",
+            "App\\Entity\\": "src/Entity/",
+            "App\\Repository\\": "src/Repository/",
+            "App\\Service\\": "src/Service/",
+            "App\\DTO\\": "src/DTO/",
+            "App\\Router\\": "src/Router/",
+            "App\\Container\\": "src/Container/"
         }
     },
     "authors": [
@@ -11,5 +18,7 @@
             "email": "ndao2001maimouma@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.7"
+    }
 }

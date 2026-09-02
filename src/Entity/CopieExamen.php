@@ -1,4 +1,10 @@
 <?php
+namespace App\Entity;
+
+
+use App\Entity\AbstractDocument ;
+use DateTime ;
+
 class CopieExamen extends AbstractDocument 
 {
     private float $noteBrute;

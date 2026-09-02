@@ -1,11 +1,13 @@
 <?php
+namespace App\Entity;
+use DateTime ;
 
 abstract class AbstractDocument 
 {
     protected ?int $id = null; 
     protected DateTime $dateDepot;
 
-    public function __construct(DateTime $dateDepot, ?int $id = null) 
+    protected function __construct(DateTime $dateDepot, ?int $id = null) 
     {
         $this->id = $id;
         $this->dateDepot = $dateDepot;
